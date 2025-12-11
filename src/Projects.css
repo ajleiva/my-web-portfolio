@@ -1,0 +1,28 @@
+#projects {
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.name {
+    background-color: #333;
+    padding: 1rem;
+}
+#projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 40px;
+}
+
+.projects-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.projects p {
+  margin: 0;
+}

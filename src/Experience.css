@@ -1,0 +1,58 @@
+#experience {
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 40px;
+}
+
+.experience-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.experience-item.left {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.experience-item.right {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.experience-header {
+  margin-bottom: 0.5rem;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company {
+  display: block;
+  font-style: italic;
+  color: rgb(235, 235, 235);
+}
+
+.date {
+  display: block;
+  font-size: 14px;
+  color: rgb(210, 210, 210);
+  margin-bottom: 0.5rem;
+}
+
+.experience-details {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+}
