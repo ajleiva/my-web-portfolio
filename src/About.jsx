@@ -35,12 +35,21 @@ const About = () => {
         </div>
 
         <div className="about-right">
-          <h3>My Professional Skills</h3>
-          <ul className="skills-list">
-            <li>Frontend Development</li>
-            <li>Testing & Automation</li>
-            <li>Backend / APIs</li>
-          </ul>
+          <div className="about-skills">
+            <h3 className="skills-heading">My Professional Skills</h3>
+            <ul className="skill-details">
+              <li className="skill-item">Frontend Development — responsive, accessible UIs</li>
+              <li className="skill-item">Testing & Automation — unit, integration and E2E testing</li>
+              <li className="skill-item">Backend / APIs — RESTful services and integration</li>
+            </ul>
+
+            <h4 className="languages-heading">Programming Languages</h4>
+            <ul className="language-list">
+              <li>JavaScript / TypeScript</li>
+              <li>Java</li>
+              <li>Python</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

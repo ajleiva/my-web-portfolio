@@ -89,16 +89,31 @@
     background: transparent;
 }
 
-.about-right h3 {
-    margin-top: 0;
+.about-right {
+    text-align: left;
 }
-.skills-list {
-    list-style: disc;
+
+.about-skills .skills-heading,
+.about-skills .languages-heading {
+    margin: 0 0 0.75rem 0;
+    text-align: center;
+}
+
+.skill-details {
+    margin: 0;
     padding-left: 1.25rem;
+    list-style-position: outside;
 }
-.skills-list li {
+.skill-details .skill-item {
     margin-bottom: 0.5rem;
 }
+
+.language-list {
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.25rem;
+    list-style-position: outside;
+}
+.language-list li { margin-bottom: 0.4rem; }
 
 @media (max-width: 900px) {
     .about-grid { grid-template-columns: 1fr; }

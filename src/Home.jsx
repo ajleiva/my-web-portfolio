@@ -20,7 +20,7 @@ export default function Home() {
 
           <div className="hero-social">
             <a href="https://www.linkedin.com/in/axel-leiva-treminio/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="https://github.com/ajleiva/" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
           </div>
         </div>
 
