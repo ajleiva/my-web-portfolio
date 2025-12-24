@@ -9,15 +9,15 @@ const About = () => {
 
       <div className="about-grid">
         <div className="about-left">
-          <h3 className="about-name">Hey there! I'm Axel</h3>
+          <h3 className="about-name">Hey there! I'm Axel,</h3>
 
           <p className="about-blurb">
-            I am a software developer who loves building clean, maintainable applications and
-            learning new and emerging tech. I have experience developing frontend applications
-            such as this app that you are currently exploring right now! I have extensive
-            professional experience in software test development and automation including frontend,
-            database, and API testing. I also love diving into data and analytics to extract
-            insights and to use it to drive strategic decision-making.
+            I'm a software developer who loves building clean, maintainable applications and
+            learning about cutting edge technology. I have experience developing frontend applications
+            (such as this app) and I have extensive professional experience in software test
+            development and automation including UI, database, and API testing.
+            Another one of my passions is diving into data and analytics
+            to extract insights and to use it to drive strategic decision-making.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const About = () => {
             <h3>Education</h3>
             <p>I studied <strong>Computer Science</strong> at the University of Waterloo and
             <strong> Business Administration</strong> at Wilfrid Laurier University, which has
-            equipped me a unique blend of technical and business acumen.</p>
+            equipped me with a unique blend of technical and business expertise.</p>
           </div>
 
           <div className="dd-wrap" aria-hidden>
