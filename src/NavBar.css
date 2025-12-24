@@ -44,3 +44,53 @@
 .nav-list a:hover {
   text-decoration: underline;
 }
+
+/* Toggle button - hidden on wide screens */
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  margin-left: 1rem;
+}
+.nav-toggle .bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: white;
+  margin: 4px 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Mobile styles */
+@media (max-width: 700px) {
+  .nav-list {
+    display: none; /* hide by default on small screens */
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    background: #333;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 160px;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .nav-toggle { display: block; }
+
+  .nav-list li { margin: 0; }
+
+  .nav-container { align-items: center; }
+}
+
+/* when toggle is open, animate bars into an X */
+.nav-toggle.open .bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle.open .bar:nth-child(2) { opacity: 0; }
+.nav-toggle.open .bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }

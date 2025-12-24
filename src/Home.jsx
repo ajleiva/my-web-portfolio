@@ -12,7 +12,7 @@ export default function Home() {
             <br />
             I'm <span className="hero-name">Axel Leiva Treminio</span>
           </h1>
-          <p className="hero-sub">I am into Software Development and Data Analytics.</p>
+          <p className="hero-sub">I'm a Software Developer and have a passion for Data Analytics.</p>
 
           <div className="hero-cta">
             <a className="btn btn-primary" href="#about">About Me</a>
