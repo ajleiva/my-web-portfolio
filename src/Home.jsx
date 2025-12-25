@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import ProfilePic from './assets/Profile_Pic.jpg'
+import linkedInLogo from './assets/LinkedIn_logo_initials.png'
+import githubLogo from './assets/github-mark-white.png'
 
 export default function Home() {
   return (
@@ -19,8 +21,15 @@ export default function Home() {
           </div>
 
           <div className="hero-social">
-            <a href="https://www.linkedin.com/in/axel-leiva-treminio/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://github.com/ajleiva/" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/axel-leiva-treminio/" target="_blank" rel="noopener noreferrer">
+              <img src={linkedInLogo} className="logo" alt="LinkedIn logo" />
+              <span className="sr-only">LinkedIn profile</span>
+            </a>
+
+            <a href="https://github.com/ajleiva/" target="_blank" rel="noopener noreferrer">
+              <img src={githubLogo} className="logo" alt="GitHub logo" />
+              <span className="sr-only">GitHub profile</span>
+            </a>
           </div>
         </div>
 
