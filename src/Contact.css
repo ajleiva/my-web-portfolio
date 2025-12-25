@@ -6,7 +6,7 @@
 }
 
 #contact {
-  padding: 2rem;
+  padding: 1rem;
   color: white;
 }
 
@@ -30,7 +30,7 @@
 .contact-container {
   max-width: 960px;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 
 .contact-list {
