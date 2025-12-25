@@ -16,20 +16,22 @@ export default function Home() {
           </h1>
           <p className="hero-sub">I'm a Software Developer and have a passion for Data Analytics.</p>
 
-          <div className="hero-cta">
-            <a className="btn btn-primary" href="#about">About Me</a>
-          </div>
+          <div className="hero-actions">
+            <div className="hero-cta">
+              <a className="btn btn-primary" href="#about">About Me</a>
+            </div>
 
-          <div className="hero-social">
-            <a href="https://www.linkedin.com/in/axel-leiva-treminio/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedInLogo} className="logo" alt="LinkedIn logo" />
-              <span className="sr-only">LinkedIn profile</span>
-            </a>
+            <div className="hero-social">
+              <a href="https://www.linkedin.com/in/axel-leiva-treminio/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedInLogo} className="logo" alt="LinkedIn logo" />
+                <span className="sr-only">LinkedIn profile</span>
+              </a>
 
-            <a href="https://github.com/ajleiva/" target="_blank" rel="noopener noreferrer">
-              <img src={githubLogo} className="logo" alt="GitHub logo" />
-              <span className="sr-only">GitHub profile</span>
-            </a>
+              <a href="https://github.com/ajleiva/" target="_blank" rel="noopener noreferrer">
+                <img src={githubLogo} className="logo" alt="GitHub logo" />
+                <span className="sr-only">GitHub profile</span>
+              </a>
+            </div>
           </div>
         </div>
 
