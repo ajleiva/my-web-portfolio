@@ -3,6 +3,14 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'Market Insights Dashboard',
+    date: 'Currently in development',
+    bullets: [
+      'Currently developing a Python-based financial analytics platform using FastAPI, PostgreSQL, and REST APIs to process and visualize market data.',
+      'Implementing data ingestion pipelines for stock prices and macroeconomic indicators.'
+    ],
+  },
+  {
     title: 'My Web Portfolio',
     date: '2025',
     bullets: [
