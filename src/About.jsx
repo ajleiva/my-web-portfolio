@@ -26,9 +26,11 @@ const About = () => {
         <div className="about-center">
           <div className="education">
             <h3>Education</h3>
-            <p>I studied <strong>Computer Science</strong> at the University of Waterloo and
-            <strong> Business Administration</strong> at Wilfrid Laurier University. My educational
-            background has equipped me with a practical, user-focused approach to solving real-world problems.</p>
+            <p>I graduated from the <strong>Computer Science</strong> and
+            <strong> Business Administration</strong> Double Degree program
+            at the University of Waterloo and Wilfrid Laurier University in 2024.
+            My educational background has equipped me with a practical,
+            user-focused approach to solving real-world problems.</p>
           
             <p>In addition to my BBA, I also obtained a minor in <strong>Economics</strong> and
             specialized in <strong>Finance</strong>.</p>
