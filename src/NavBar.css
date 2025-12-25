@@ -65,18 +65,23 @@
 
 /* Mobile styles */
 @media (max-width: 700px) {
+  /* allow the dropdown to overflow the fixed navbar area */
+  #navbar { overflow: visible; }
   .nav-list {
     display: none; /* hide by default on small screens */
-    position: absolute;
-    top: 100%;
+    position: fixed; /* overlay the page as a compact box on the right */
+    top: calc(var(--nav-height, 56px));
     right: 1rem;
+    width: 240px;
     background: #333;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.75rem;
     border-radius: 8px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
     flex-direction: column;
     gap: 0.5rem;
-    min-width: 160px;
+    z-index: 2000;
+    max-height: calc(100vh - calc(var(--nav-height, 56px) + 2rem));
+    overflow: auto;
   }
 
   .nav-list.open {
