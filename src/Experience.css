@@ -10,9 +10,35 @@
   font-size: 40px;
 }
 
+#experience h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    background: linear-gradient(90deg,#8a6cfb,#7adfd0);
+    border-radius: 4px;
+}
+
 .experience-list {
   width: 80%;
   margin: 0 auto;
+}
+
+.experience-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  border-left: 6px solid #7adfd0;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.55);
+  border-left: 6px solid #535bf2;
 }
 
 .experience-item.left {

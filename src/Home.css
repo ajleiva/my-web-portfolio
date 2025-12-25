@@ -36,7 +36,8 @@
   margin-bottom: 1rem;
 }
 .btn-primary {
-  background: #0ea5a4;
+  background: #7adfd0;
+  background: linear-gradient(90deg,#8a6cfb,#7adfd0);
   color: white;
   padding: 0.6rem 1rem;
   border-radius: 6px;

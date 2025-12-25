@@ -14,15 +14,68 @@
   font-size: 40px;
 }
 
+#projects h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    background: linear-gradient(90deg,#8a6cfb,#7adfd0);
+    border-radius: 4px;
+}
+
 .projects-list {
   width: 80%;
   margin: 0 auto;
 }
 
-.projects h3 {
-  margin: 0 0 0.5rem 0;
+.projects-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  display: flex;
+  align-items: flex-start;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  border-left: 6px solid #7adfd0;
 }
 
-.projects p {
-  margin: 0;
+.projects-item.right {
+  text-align: right;
 }
+
+.projects-item.left {
+  text-align: left;
+}
+
+.projects-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.55);
+  border-left: 6px solid #535bf2;
+}
+
+.projects-content h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.projects-date {
+  display: block;
+  font-size: 13px;
+  color: rgb(200,200,200);
+  margin-bottom: 0.25rem;
+}
+
+.projects-details {
+  margin: 0.5rem 0 0 1rem;
+  padding: 0;
+}
+
+.projects-details li {
+  margin-bottom: 0.45rem;
+}
+
+/* Slight variation: alternate items get a softer accent tone 
+.projects-item:nth-child(2n) {
+  border-left-color: #7adfd0;
+} */

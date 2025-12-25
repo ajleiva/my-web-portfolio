@@ -1,8 +1,10 @@
 /* About section */
 #about {
-    background-color: #333;
+    /* background: linear-gradient(135deg, #2b2b3a 0%, #2f1b3a 60%); */
     padding: 2.5rem 1rem;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .about-heading {
@@ -24,6 +26,19 @@
 
 .about-left, .about-right {
     background: transparent;
+}
+
+.about-left:hover, .about-right:hover {
+    box-shadow: 0px 0px 20px #7adfd0;
+    transform: translateY(-4px);
+}
+
+.about-card {
+    background: rgba(255,255,255,0.03);
+    padding: 1.2rem 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+    border: 1px solid rgba(255,255,255,0.04);
 }
 
 .about-name {
@@ -55,11 +70,15 @@
     gap:1rem;
 }
 .education {
-    background: #fff;
+    background: #eefffd;
     padding: 1rem 1.25rem;
     border-radius: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     max-width: 320px; 
+}
+.education:hover {
+    box-shadow: 0px 0px 20px #ffc107;
+    transform: translateY(-4px);
 }
 .education h3 {
     margin: 0 0 0.5rem 0;
@@ -74,19 +93,24 @@
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background: #ffd54d;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,#ffd54d,#ffc107);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 .dd-logo {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
     border-radius: 50%;
-    display:block;
+    display: block;
     background: transparent;
+}
+
+.dd-wrap:hover {
+    box-shadow: 0 0px 20px #ffc107;
+    transform: translateY(-4px);
 }
 
 .about-right {
@@ -97,6 +121,12 @@
 .about-skills .languages-heading {
     margin: 0 0 0.75rem 0;
     text-align: center;
+}
+
+.tagline {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #e6e6e6;
 }
 
 .skill-details {
@@ -114,6 +144,44 @@
     list-style-position: outside;
 }
 .language-list li { margin-bottom: 0.4rem; }
+
+.chip-list {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 0.45rem;
+    justify-content:center;
+}
+
+.chip {
+    display:inline-block;
+    padding: 0.35rem 0.6rem;
+    background: rgba(255,255,255,0.06);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    border: 1px solid #7adfd0;
+}
+
+.chip:hover, .chip.accent:hover {
+    box-shadow: 0 0px 10px #7adfd0;
+}
+
+.chip.accent {
+    background: linear-gradient(90deg,#8a6cfb,#7adfd0);
+    color: white;
+    box-shadow: 0 4px 12px rgba(138,108,251,0.12);
+}
+
+/* Heading underline accent */
+.about-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    background: linear-gradient(90deg,#8a6cfb,#7adfd0);
+    border-radius: 4px;
+}
 
 @media (max-width: 900px) {
     .about-grid { grid-template-columns: 1fr; }
