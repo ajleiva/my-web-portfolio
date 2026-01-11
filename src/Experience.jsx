@@ -7,10 +7,11 @@ const experiences = [
     company: "CGI – Toronto, Ontario (Hybrid)",
     date: "Oct. 2024 – Present",
     bullets: [
-      "Developed 1400 automated regression tests in Java, Rest Assured, and Selenium for REST API and UI validations, improving coverage by 95% and reducing manual testing efforts by 99%.",
-      "Developed SQL queries to validate data integrity across UI, database, and POST/PUT API requests.",
-      "Built and integrated automation pipelines with Jenkins CI/CD for continuous testing.",
-      "Worked in an Agile, production-level environment and presented test results and bugs to product owners, developers, and business analysts in Business reviews.",
+      "Designed and implemented Java-based automation services validating RESTful APIs and UI workflows for banking applications, increasing functional coverage by 95% and improving release stability.",
+      "Built API-level validation logic using Rest Assured to test GET/POST/PUT requests, ensuring correct business logic execution and reducing regression defects before deploying to production.",
+      "Developed SQL-based data validation layers to verify consistency across application UI, relational databases, and backend services, strengthening end-to-end system reliability.",
+      "Integrated automated tests into Jenkins CI/CD pipelines to continuously validate backend services.",
+      "Worked in an Agile, production-level environment and delivered presentations to product owners, developers, and business analysts in business reviews to highlight regression and functional testing results before deploying to production."
     ],
   },
   {
@@ -18,8 +19,8 @@ const experiences = [
     company: "TD – Toronto, Ontario (Hybrid)",
     date: "Sept. 2023 – Dec. 2023",
     bullets: [
-      "Developed 2 automated API health checks in Java and Rest Assured and 15 automated UI regression tests in Java and Selenium.",
-      "Leveraged Applitools AI in automation framework to increase UI test efficiency.",
+      "Developed Java-based API health checks using Rest Assured and automated UI regression tests with Selenium to validate end-to-end banking workflows.",
+      "Integrated Applitools AI-powered visual testing into the automation framework to enhance UI testing efficiency.",
     ],
   },
   {
@@ -27,8 +28,8 @@ const experiences = [
     company: "TD – Toronto, Ontario (Hybrid)",
     date: "Sept. 2022 – Dec. 2022",
     bullets: [
-      "Developed over 50 automated tests in Java and Selenium, increasing testing efficiency by more than 130%",
-      "Debugged and modified numerous test scripts to ensure automation scripts were efficient and up to date.",
+      "Built and maintained 50+ automated UI regression tests in Java and Selenium, improving regression coverage and increasing testing efficiency by 130%.",
+      "Refactored and optimized existing automation scripts to improve performance, maintainability, and long-term reliability of the test framework.",
     ],
   },
   {
@@ -37,8 +38,8 @@ const experiences = [
     date: "Jan. 2022 – Apr. 2022",
     bullets: [
       "Managed the overall development of a new automated dashboard in Tableau, and utilized SQL and Excel to conduct data analysis on various datasets and databases to create mockup designs for the dashboard.",
-      "Collaborated with a data scientist to automate a monthly email report containing information about Technology & Operations (T&O) sponsored projects using Python, Pandas, Matplotlib, and SQL.",
-      "Delivered actionable insights and analysis for the T&O Quarterly Business Review, guiding strategic decisions for high-ranking executives, including RBC’s CEO.",
+      "Automated a monthly email using Python and performed data analysis using Python, SQL, and Excel on financial datasets to support KPI analysis.",
+      "Developed structured analytical reports and metrics used in the Technology & Operations Quarterly Business Review, supporting strategic planning and executive decision-making, including RBC’s CEO.",
     ],
   },
   {
@@ -46,8 +47,8 @@ const experiences = [
     company: "Loblaw Digital – Toronto, Ontario (Remote)",
     date: "Jan. 2021 – Apr. 2021",
     bullets: [
-      "Collaborated on a project that impacted all Canadians: Loblaw’s COVID-19 vaccine scheduling web app by working closely with developers to implement GA4 and UA analytics into the web app.",
-      "Created dashboards and reports in Google Analytics and Adobe Analytics which were used to highlight key insights and actionable items from the user behaviour data collected from the application.",
+      "Collaborated on a project that impacted all Canadians: Loblaw’s COVID-19 vaccine scheduling web app. Designed and implemented event-based analytics using Google Analytics (GA4 & Universal Analytics) within a React application, enabling structured collection of user interaction data across key product flows.",
+      "Built analytics dashboards to visualize insights on user behavior, engagement, and conversion metrics and to drive strategic decision-making.",
       "Gathered business requirements and built technical documents with code specs outlining analytics implementation requirements for a Java mobile project and a React web app.",
     ],
   },

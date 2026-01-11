@@ -14,8 +14,7 @@ const projects = [
     title: 'My Web Portfolio',
     date: '2025',
     bullets: [
-      'Developed my web portfolio with React and Vite, showcasing coding projects and professional working experience.',
-      'Implemented a responsive design and accessible navigation for both web and mobile.'
+      'Developed an interactive, responsive web portfolio using JavaScript, React, and Vite, applying component-based architecture, UI rendering, and modular CSS for maintainable front-end development.',
     ],
   },
   {
